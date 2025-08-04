@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --bg-color: pink;
+}
+
+body {
+    height: 100dvh;
+    display: grid;
+    place-content: center;
+    transition: 1s;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 300px;
+}
+
+.container input {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.container button {
+    padding: 8px;
+}
+
+.cor {
+    background-color: var(--bg-color);
+}
